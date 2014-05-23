@@ -145,8 +145,6 @@ module.exports = function(grunt) {
                 options: {
                     configFile: "tests/e2e.conf.js",
                     args: {
-                        seleniumAddress: 'http://angular-quickstart.dev:9515',
-                        baseUrl: 'http://angular-quickstart.dev',
                         capabilities: {
                             browserName: 'chrome',
                             chromeOptions: {
