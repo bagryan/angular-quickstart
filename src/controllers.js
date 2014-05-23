@@ -1,3 +1,3 @@
 angular.module('bap.controllers', [
-    'bap.indexController'
+    'app.indexController'
 ]);

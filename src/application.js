@@ -1,6 +1,6 @@
 angular.module('app', [
-        'bap.templates',
-        'bap.controllers',
+        'app.templates',
+        'app.controllers',
         'ngRoute',
         'ngAnimate',
         'cgBusy',
