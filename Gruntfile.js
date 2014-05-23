@@ -36,13 +36,15 @@ module.exports = function(grunt) {
                             "bower_components/angular-resource/angular-resource.js",
                             "bower_components/angular-route/angular-route.js",
                             "bower_components/angular-animate/angular-animate.js",
+                            "bower_components/angular-busy/angular-busy.js",
                             "bower_components/angular-bootstrap/ui-bootstrap-tpls.js"
                         ]
                     },
                     {
                         'public/css/vendors.css': [
                             "bower_components/bootstrap/dist/css/bootstrap.css",
-                            "bower_components/bootstrap/dist/css/bootstrap-theme.css"
+                            "bower_components/bootstrap/dist/css/bootstrap-theme.css",
+                            "bower_components/angular-busy/angular-busy.css"
                         ]
                     }
                 ]
